@@ -22,7 +22,7 @@ body {
 .hero {
     background-image: url("/static/images/banner.jpg");
     height: 250px;
-    background-size:contain;
+    background-size:80%;
     display: flex;
     justify-content: center;
     align-items: center;
