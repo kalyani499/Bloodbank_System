@@ -20,12 +20,13 @@ body {
 
 /* HERO */
 .hero{
-    background-image: url("/static/images/banner.jpg");
-    height: 250px;              /* adjust here */
-    background-size: contain; /* SHOW FULL IMAGE */
+    background-image: url("/static/images/banner1.jpg");
+    min-height: 300px;        /* controls banner size */
     background-repeat: no-repeat;
+    background-size: 100% auto;   /* FULL WIDTH, AUTO HEIGHT */
     background-position: center;
 }
+
 
 
 
