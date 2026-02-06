@@ -21,11 +21,12 @@ body {
 /* HERO */
 .hero {
     background-image: url("/static/images/banner.jpg");
-    height: 250px;
-    background-size:80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    .hero{
+    height:220px;
+    background-size:cover;
+    background-position:center;
+}
+
 }
 
 .hero h1 {
