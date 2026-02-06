@@ -1,3 +1,5 @@
+
+
 body {
     margin: 0;
     font-family: Arial;
@@ -20,12 +22,15 @@ body {
 
 /* HERO */
 .hero{
-    background-image: url("/static/images/banner1.jpg");
-    min-height: 300px;        /* controls banner size */
+    background-image: url("/static/images/banner.jpg");
+    height: 350px;
     background-repeat: no-repeat;
-    background-size: 100% auto;   /* FULL WIDTH, AUTO HEIGHT */
+    background-size: contain;
     background-position: center;
+    margin-top: 20px;
 }
+
+
 
 
 
