@@ -21,13 +21,13 @@ body {
 /* HERO */
 .hero {
     background-image: url("/static/images/banner.jpg");
-    .hero{
+    
     height:220px;
     background-size:cover;
     background-position:center;
 }
 
-}
+
 
 .hero h1 {
     color: white;
