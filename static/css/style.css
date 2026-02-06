@@ -21,8 +21,8 @@ body {
 /* HERO */
 .hero {
     background-image: url("/static/images/banner.jpg");
-    height: 50px;
-    background-size: cover;
+    height: 250px;
+    background-size:contain;
     display: flex;
     justify-content: center;
     align-items: center;
