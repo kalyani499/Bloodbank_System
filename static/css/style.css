@@ -19,16 +19,14 @@ body {
 }
 
 /* HERO */
-.hero {
+.hero{
     background-image: url("/static/images/banner.jpg");
-    
-    height:220px;
-    background-size:cover;
-    background-position:center;
-       display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 250px;              /* adjust here */
+    background-size: contain; /* SHOW FULL IMAGE */
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
 
 
 
