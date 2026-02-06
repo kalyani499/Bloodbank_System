@@ -20,7 +20,7 @@ body {
 
 /* HERO */
 .hero {
-    background-image: url("/static/images/banner1.jpg");
+    background-image: url("/static/images/banner.jpg");
     height: 400px;
     background-size: cover;
     display: flex;
