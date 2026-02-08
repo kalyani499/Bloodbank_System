@@ -8,4 +8,6 @@ urlpatterns = [
     path('admin-request-history/', views.admin_requests),
     path('admin-blood/', views.blood_stock),
     path('home/', views.home),
+    path('about/', views.about, name='about'),
+
 ]

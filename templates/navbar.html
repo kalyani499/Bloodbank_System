@@ -1,0 +1,17 @@
+{% load static %}
+
+<nav class="navbar">
+    <div class="nav-left">
+        <i class="fas fa-heart"></i>
+        <span>Blood Bank Management System</span>
+    </div>
+
+    <ul class="nav-right">
+        <li><a href="{% url 'home' %}">Home</a></li>
+        <li><a href="{% url 'patient_login' %}">Patient</a></li>
+        <li><a href="{% url 'donor_login' %}">Donor</a></li>
+        <li><a href="{% url 'admin:index' %}">Admin</a></li>
+        <li><a href="{% url 'about' %}">About Us</a></li>
+        <li><a href="{% url 'contact' %}">Contact Us</a></li>
+    </ul>
+</nav>
